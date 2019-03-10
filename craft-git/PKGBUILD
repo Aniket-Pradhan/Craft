@@ -7,6 +7,7 @@ pkgrel=1
 pkgdesc="A simple Minecraft clone written in C using modern OpenGL (shaders)."
 url="https://github.com/fogleman/Craft"
 license=("MIT License")
+depends=('libglew-dev' 'xorg-dev' 'libcurl4-openssl-dev' 'build-dep' 'glfw')
 makedepends=("cmake")
 depends=("curl")
 arch=("i686" "x86_64")
