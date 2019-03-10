@@ -16,8 +16,12 @@ source=("craft::git+https://github.com/fogleman/Craft#branch=master"
 
 build() {
 	cd "${srcdir}/${pkgname}"
-	cmake .
+	mkdir ${pkgname}/
+	cd ${pkgname}/
+	cmake ../
 	make
+	cp -r ../textures ./
+	cp -r ../shaders ./
 }
 
 package() {
@@ -25,7 +29,8 @@ package() {
 	mkdir -p ${pkgdir}/usr/bin
 	mkdir -p ${pkgdir}/usr/share/licenses/${pkgname}
 
-	cp -r ${srcdir}/${pkgname} ${pkgdir}/opt/
+	cp -r ${srcdir}/${pkgname}/${pkgname} ${pkgdir}/opt/
+	chown -R $USER:$USER /opt/${pkgname}
 
 	install -Dm 755 launcher.sh ${pkgdir}/usr/bin/${pkgname}
 	install -Dm644 ${srcdir}/${pkgname}/LICENSE.md "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
