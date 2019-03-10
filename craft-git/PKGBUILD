@@ -36,5 +36,5 @@ package() {
 	install -Dm644 ${srcdir}/${pkgname}/LICENSE.md "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
 
-md5sums=('SKIP'
-         '7d2ef3403b3aeea40b0a278046f4a9d6')
+sha512sums=('SKIP'
+            'cf9627269bb44654dff99948c1e6ff693dd7bc7eb5aaadfbd02cc1a06f63d8c3b54ef90c3673cfcaded249201a7e522726a61aa6b83a58537d24659c0f19f329')
