@@ -8,9 +8,9 @@ http://www.michaelfogleman.com/craft/
 ![Screenshot](http://i.imgur.com/SH7wcas.png)
 
 ## Installation
-You can install this package with any AUR installer. E.g. with yaourt:
+You can install this package with any AUR installer. E.g. with aurman (or yay, or any other AUR helper, or just download the PKGBUILD):
 ```
-yaourt -S craft
+aurman -S craft
 ```
 
 ## Craft Features
