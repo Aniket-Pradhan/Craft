@@ -10,7 +10,7 @@ http://www.michaelfogleman.com/craft/
 ## Installation
 You can install this package with any AUR installer. E.g. with aurman (or yay, or any other AUR helper, or just download the PKGBUILD):
 ```
-aurman -S craft
+aurman -S craft-git
 ```
 
 ## Craft Features
