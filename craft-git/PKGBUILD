@@ -9,7 +9,6 @@ url="https://github.com/fogleman/Craft"
 license=("MIT License")
 depends=('libglew-dev' 'xorg-dev' 'libcurl4-openssl-dev' 'build-dep' 'glfw')
 makedepends=("cmake")
-depends=("curl")
 arch=("i686" "x86_64")
 source=("craft::git+https://github.com/fogleman/Craft#branch=master"
 		"launcher.sh"
