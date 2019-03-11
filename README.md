@@ -1,4 +1,4 @@
-# craft-aur
+# craft-git
 This is a AUR package of [Craft](https://github.com/fogleman/Craft) made for Arch Linux and Manjaro.
 
 Craft is a Minecraft clone for Windows, Mac OS X and Linux. Craft is built to be very lightweight and fast, and includes multiplayer support out-of-the-box.
