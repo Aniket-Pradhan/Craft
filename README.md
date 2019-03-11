@@ -8,7 +8,10 @@ http://www.michaelfogleman.com/craft/
 ![Screenshot](http://i.imgur.com/SH7wcas.png)
 
 ## Installation
-You can install this package with any AUR installer. E.g. with aurman (or yay, or any other AUR helper, or just download the PKGBUILD):
+
+The AUR package can be found [here](https://aur.archlinux.org/packages/craft-git/).
+
+You can install this package with any AUR helper. E.g. with aurman (or yay, or any other AUR helper, or just download the PKGBUILD):
 ```
 aurman -S craft-git
 ```
