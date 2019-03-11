@@ -7,10 +7,9 @@ pkgbase = craft
 	arch = x86_64
 	license = MIT
 	makedepends = cmake
-	depends = libglew-dev
-	depends = xorg-dev
-	depends = libcurl4-openssl-dev
-	depends = build-dep 
+	depends = glew
+	depends = xorg-server
+	depends = curl
 	depends = glfw
 	source = craft::git+https://github.com/fogleman/Craft#branch=master
 	source = launcher.sh
